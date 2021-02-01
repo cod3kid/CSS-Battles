@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+
+  /* 1. Simply Square */
+
+.simplySquare__parent{
+    background:#5d3a3a;
+    height:300px;
+    width:400px;
+
+}
+  .simplySquare__child{
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
+  }
+
+    /* 2. Carroms */
+
+  .carroms__parent{
+    background:#62374e;
+    height:300px;
+    width:400px;
+    position: relative;
+  }
+
+.carroms__parent > div {
+    background-color:#fdc57b;
+    height:50px;
+    width:50px;
+    position:absolute;
+    }
+
+
+   .carroms__one{
+     top:50px;
+     left:50px;    
+   }
+
+    .carroms__two{
+     top:50px;
+     right:50px;
+   }
+
+   .carroms__three{
+     bottom:50px;
+     left:50px;
+   }
+   
+   .carroms__four{
+     bottom:50px;
+     right:50px;
+   }
