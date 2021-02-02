@@ -16,7 +16,7 @@
     background: #b5e0ba;
   }
 
-    /* 2. Carroms */
+    /* 2. Carrom */
 
   .carroms__parent{
     background:#62374e;
@@ -52,3 +52,54 @@
      bottom:50px;
      right:50px;
    }
+
+
+    /* 3. Push Button */
+
+    .pushButton__parent{
+      margin:0;
+      background:#6592CF;
+      height:300px;
+      width:400px;
+  }
+
+  .pushButton__rectangle{
+      width: 300px;
+      height: 150px;
+      background: #243D83;
+      position: relative;
+      left:50px;
+      top:75px;
+    }
+    
+    .pushButton__circle{
+      position:absolute;
+      background:#6592CF;
+      width:250px;
+      height:250px;
+      left:25px;
+      z-index:2;
+      top:-50px;
+      border-radius:300px;
+    }
+    
+    .pushButton__miniCircle{
+      position:absolute;
+      background:#243D83;
+      width:150px;
+      height:150px;
+      z-index:3;
+      border-radius:100px;
+      left:75px;
+  }
+    
+  .pushButton__dot{
+      position:absolute;
+      background:#EEB850;
+      width:50px;
+      height:50px;
+      z-index:4;
+      border-radius:100px;
+      top:50px;
+      left:125px;
+    }
