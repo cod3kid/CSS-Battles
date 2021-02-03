@@ -103,3 +103,39 @@
       top:50px;
       left:125px;
     }
+
+
+    /* 3. Ups n Downs */
+
+    .upsDowns__parent{
+      height:300px;
+      width:400px;
+      background:#62306D;
+      position: relative;
+    }
+
+.upsDowns__parent > div {
+  position:absolute;
+  width: 100px;
+  height: 100px;
+  background: #F7EC7D;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+}
+
+    .upsDowns__top{
+      left:150px;
+      top:50px;
+    }
+
+    .upsDowns__bottomOne{
+      left:50px;
+      transform:rotate(180deg);
+      top:150px
+    }
+
+    .upsDowns__bottomTwo{
+      right:50px;
+      transform:rotate(180deg);
+      top:150px
+    }
