@@ -149,33 +149,32 @@
   position: relative;
 }
 
-    .one{
-      position:absolute;
+.acidRain__parent > div {
+  height:120px;
+  width:120px;
+  position:absolute;
+}
+
+    .acidRain__one{
       background:#F3AC3C;
-      height:120px;
-      width:120px;
       border-radius:100px;
       top:30px;
       right:80px;
+    }
+    
+     .acidRain__two{
+      background:#998235;
+      border-radius:100px;
+      border-top-right-radius:0px;
+      top:90px;
+      right:140px;
       
     }
     
-     .two{
-       position:absolute;
-      background:#998235;
-      height:120px;
-      width:120px;
-      border-radius:100px;
-       top:90px;
-       right:140px;
-    }
-    
-      .three{
-       position:absolute;
+      .acidRain__three{
       background:#F3AC3C;
-      height:120px;
-      width:120px;
       border-radius:100px;
-       top:150px;
-       right:200px;
+      border-top-right-radius:0px;
+      top:150px;
+      right:200px;
     }
