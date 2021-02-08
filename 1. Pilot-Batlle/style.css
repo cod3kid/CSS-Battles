@@ -218,7 +218,7 @@
     }
 
 
- /* 6. Leafy Trail */
+ /* 7. Leafy Trail */
 
  .leafyTrail__parent{
   height:300px;
@@ -253,3 +253,112 @@
        border-bottom-right-radius:100px;
        left:175px;
    }
+
+    /*8. Forking Crazy */
+    .forkingCrazy__parent{
+      height:300px;
+      width:400px;
+      background:#6592CF;
+      position: relative;
+    }
+
+    
+    .forkingCrazy__stem {
+      position:absolute;
+      width: 20px;
+      height: 55px;
+      bottom:0;
+      left:190px;
+      background: #060F55;
+    }
+    
+    .forkingCrazy__base{
+      position:absolute;
+      bottom:50px;
+      left:130px;
+      width:140px;
+      height:100px;
+      border-bottom-left-radius:200px;
+      border-bottom-right-radius:200px;
+      background: #060F55;
+    }
+
+    .forkingCrazy__innerProng1{
+          position:absolute;
+      width:20px;
+      height:100px;
+      background:#6592CF;
+      border-bottom-right-radius:30px;
+      border-bottom-left-radius:30px;
+      left:150px;
+      top:60px;
+      z-index:2;
+    }
+    
+    .forkingCrazy__innerProng2{
+          position:absolute;
+      width:20px;
+      height:100px;
+      background:#6592CF;
+      border-bottom-right-radius:30px;
+      border-bottom-left-radius:30px;
+      left:190px;
+      top:60px;
+      z-index:2;
+    }
+    
+    .forkingCrazy__innerProng3{
+      position:absolute;
+      width:20px;
+      height:100px;
+      background:#6592CF;
+      border-bottom-right-radius:30px;
+      border-bottom-left-radius:30px;
+      left:230px;
+      top:60px;
+      z-index:2;
+    }
+    
+    .forkingCrazy__prong1{
+      position:absolute;
+      width:20px;
+      height:100px;
+      background:#060F55;
+      border-top-right-radius:30px;
+      border-top-left-radius:30px;
+     left:130px;
+      top:50px;
+    }
+    
+    .forkingCrazy__prong2{
+      position:absolute;
+      width:20px;
+      height:100px;
+      background:#060F55;
+      border-top-right-radius:30px;
+      border-top-left-radius:30px;
+      left:170px;
+      top:50px;
+    }
+    
+    .forkingCrazy__prong3{
+      position:absolute;
+      width:20px;
+      height:100px;
+      background:#060F55;
+      border-top-right-radius:30px;
+      border-top-left-radius:30px;
+      left:210px;
+      top:50px;
+    }
+    
+    .forkingCrazy__prong4{
+      position:absolute;
+      width:20px;
+      height:100px;
+      background:#060F55;
+      border-top-right-radius:30px;
+      border-top-left-radius:30px;
+      left:250px;
+      top:50px;
+    }
