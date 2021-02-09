@@ -362,3 +362,50 @@
       left:250px;
       top:50px;
     }
+
+   /*9. Tesseract */
+
+   .tesseract__parent{
+    height:300px;
+    width:400px;
+    background:#222730;
+    position: relative;
+  }
+
+  .tesseract__one{
+    position:absolute;
+    background:#4CAAB3;
+    width:400px;
+    height:150px;
+    top:75px;
+  }
+  
+  .tesseract__two{
+    position:absolute;
+    background:#222730;
+    width:250px;
+    height:250px;
+    transform:rotate(45deg);
+    top:25px;
+    left:75px;
+  }
+  
+  .tesseract__three{
+	  position:absolute;
+    width:150px;
+    height:150px;
+    background:#4CAAB3;
+    transform: rotate(45deg);
+    left:125px;
+    top:75px;
+  }
+  
+  .tesseract__four{
+    position:absolute;
+    left:175px;
+    width:50px;
+    height:50px;
+    background:#393E46;
+    top:125px;
+    border-radius:50px;
+  }
