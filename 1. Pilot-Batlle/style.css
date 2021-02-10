@@ -409,3 +409,93 @@
     top:125px;
     border-radius:50px;
   }
+
+
+   /*10. Cloaked Spirits */
+
+   .cloakedSpirits__parent{
+    height:300px;
+    width:400px;
+    background:#62306D;
+    position: relative;
+  }
+
+  .cloakedSpirits__top{
+    background:#F7EC7D;
+    width:100px;
+    height:100px;
+    position:absolute;
+ 	  bottom:100px;
+    left:150px;
+  }
+  
+  .cloakedSpirits__bottom{
+    background:#F7EC7D;
+    width:300px;
+    height:100px;
+    position:absolute;
+   	bottom:0px;
+    left:50px;
+  }
+  
+  .cloakedSpirits__circleOne{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    position:absolute;
+    background:#AA445F;
+    bottom:50px;
+    left:50px;
+  }
+  
+  .cloakedSpirits__circleTwo{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    position:absolute;
+    background:#E38F66;
+    top:50px;
+    left:150px;
+  }
+  
+  
+  
+  .cloakedSpirits__circleThree{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    position:absolute;
+    background:#AA445F;
+    bottom:50px;
+    right:50px;
+  }
+  
+  .cloakedSpirits__innerCircleOne{
+    width:60px;
+    height:60px;
+    border-radius:100px;
+    position:absolute;
+    background:#E38F66;
+    bottom:70px;
+    right:70px;
+  }
+  
+  .cloakedSpirits__innerCircleTwo{
+    width:60px;
+    height:60px;
+    border-radius:100px;
+    position:absolute;
+    background:#AA445F;
+    top:70px;
+    right:170px;
+  }
+  
+  .cloakedSpirits__innerCircleThree{
+    width:60px;
+    height:60px;
+    border-radius:100px;
+    position:absolute;
+    background:#E38F66;
+    bottom:70px;
+    left:70px;
+  }
