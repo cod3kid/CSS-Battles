@@ -499,3 +499,61 @@
     bottom:70px;
     left:70px;
   }
+
+   /*11. Eye of Sauron */
+
+   .eyeOfSauron__parent{
+    height:300px;
+    width:400px;
+    background:#191210;
+    position: relative;
+  }
+
+  .eyeOfSauron__eye {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border:20px solid #ECA03D;
+    border-radius:100px;
+    top:80px;
+    left:130px;
+  }
+  
+  .eyeOfSauron__pupil{
+    position:absolute;
+    width:50px;
+    height: 50px;
+    background: #84271C;
+    border-radius:100px;
+    top:125px;
+    left:175px;
+  }
+  
+  .eyeOfSauron__left{
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border:20px solid #ECA03D;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    border-radius:100px;
+    top:100px;
+    left:50px;
+    transform:rotate(45deg);
+  }
+  
+  .eyeOfSauron__right{
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border:20px solid #ECA03D;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    border-radius:100px;
+    top:100px;
+    right:50px;
+    transform:rotate(225deg);
+  }
