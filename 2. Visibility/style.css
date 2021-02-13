@@ -19,3 +19,47 @@
     border-bottom-color:transparent;
     border-right-color:transparent;
   }
+
+/* 14. Web Maker Logo */
+
+.webMakerLogo__parent{
+    height:300px;
+    width:400px;
+    background:#F2F2B6;
+    position: relative;
+}
+
+.webMakerLogo__parent > div {
+    position:absolute;
+    width: 0;
+    height: 0;
+    background:transparent;
+} 
+.webMakerLogo__redOne{
+    top:85px;
+    left:80px;
+    border:75px solid transparent;
+    border-top:130px solid #FD4602;
+  }
+
+  .webMakerLogo__orangeOne{
+    top:85px;
+    left:60px;
+    border:75px solid transparent;
+    border-top:130px solid  #FF6D00;
+  }
+
+  
+     .webMakerLogo__redTwo{
+    top:10px;
+    left:170px;
+    border:75px solid transparent;
+    border-bottom:130px solid #FD4602;
+  }
+  
+       .webMakerLogo__orangeTwo{
+    top:10px;
+    left:190px;
+    border:75px solid transparent;
+    border-bottom:130px solid #FF6D00;
+  }
