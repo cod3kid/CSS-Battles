@@ -557,3 +557,72 @@
     right:50px;
     transform:rotate(225deg);
   }
+
+     /*12. Wiggly Moustache */
+
+     .wigglyMoustache__parent{
+      height:300px;
+      width:400px;
+      background:#F5D6B4;
+      position: relative;
+    }
+
+     .wigglyMoustache__one{
+      position:absolute;
+      top:100px;
+      left:70px;
+      width:60px;
+      height:60px;
+      border:20px solid #D86F45;
+      border-top-color:transparent;
+      border-left-color:transparent;
+      border-radius:100px;
+      transform:rotate(45deg);
+     }
+     
+      .wigglyMoustache__two{
+      position:absolute;
+      top:100px;
+      right:70px;
+      width:60px;
+      height:60px;
+      border:20px solid #D86F45;
+      border-top-color:transparent;
+      border-left-color:transparent;
+      border-radius:100px;
+      transform:rotate(45deg);
+     }
+     
+      .wigglyMoustache__three{
+      position:absolute;
+      top:100px;
+      left:150px;
+      width:60px;
+      height:60px;
+      border:20px solid #D86F45;
+      background:transparent;
+      border-top-color:transparent;
+      border-left-color:transparent;
+      border-radius:100px;
+      transform:rotate(225deg);
+     }
+     
+     .wigglyMoustache__circleOne{
+       width:20px;
+       height:20px;
+       background:#D86F45;
+       border-radius:20px;
+       position:absolute;
+       top:140px;
+       left:70px;
+     }
+     
+       .wigglyMoustache__circleTwo{
+       width:20px;
+       height:20px;
+       background:#D86F45;
+       border-radius:20px;
+       position:absolute;
+       top:140px;
+       right:70px;
+     }
