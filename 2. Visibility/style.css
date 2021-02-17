@@ -64,7 +64,7 @@
     border-bottom:130px solid #FF6D00;
    }
 
-   /* 14. Overlap */
+   /* 15. Overlap */
 
    .overlap__parent{
     height:300px;
@@ -94,14 +94,57 @@
   }
   
  .overlap__mid {
-   position:absolute;
-   top:110px;
-   left:155px;
-   width: 85px;
-   height: 80px;
-   background:#09042A;
-   border-top-right-radius:100%;
-   border-bottom-left-radius:100%;
-   transform:rotate(47deg)
+  position:absolute;
+  top:110px;
+  left:160px;
+  width: 80px;
+  height: 80px;
+  background:#09042A;
+  border-top-right-radius:95%;
+  border-bottom-left-radius:95%;
+  transform:rotate(45deg)
    	
   }
+
+     /* 16. Eye of a Tiger*/
+
+     .eyeOfATiger__parent{
+      height:300px;
+      width:400px;
+      background:#0B2429;
+      position: relative;
+  }
+
+  .eyeOfATiger__eye{
+    position:absolute;
+    top:50px;
+    left:100px;
+    height:200px;
+    width:200px;
+    border-top-left-radius:50%;
+    border-bottom-right-radius:50%;
+    background:#998235;
+    transform:rotate(45deg)
+  }
+  
+  .eyeOfATiger__eyeball{
+    position:absolute;
+    top:60px;
+    left:110px;
+    height:140px;
+    width:140px;
+    border:20px solid #0B2429;
+    border-radius:100%;
+    background:#F3AC3C;
+  }
+  
+  .eyeOfATiger__pupil{
+    position:absolute;
+    top:125px;
+    left:175px;
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    background:#0B2429;
+  }
+  
