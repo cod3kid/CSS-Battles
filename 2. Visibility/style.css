@@ -147,4 +147,34 @@
     border-radius:100%;
     background:#0B2429;
   }
+
+    /* 17. Fidget Spinner*/
+
+    .figetSpinner__parent{
+      height:300px;
+      width:400px;
+      background:#09042A;
+      position: relative;
+  }
+
+
+  .figetSpinner__up{
+    width:60px;
+    height:60px;
+    background:#F5BB9C;
+    border-radius:100%;
+    position:absolute;
+    top:68px;
+    left:170px;
+  }
+  
+  .figetSpinner__down{
+    width:60px;
+    height:60px;
+    background:#F5BB9C;
+    border-radius:100%;
+    position:absolute;
+    bottom:68px;
+    left:170px;
+  }
   
