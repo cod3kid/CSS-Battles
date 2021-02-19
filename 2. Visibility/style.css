@@ -178,3 +178,27 @@
     left:170px;
   }
   
+
+
+  .figetSpinner__left{
+    width:60px;
+   height:60px;
+   background:#09042A;
+   border-radius:100%;
+   position:absolute;
+   top:110px;
+   left:100px;
+   border:10px solid #E78481;
+ }
+ 
+ .figetSpinner__right{
+    width:60px;
+   height:60px;
+   background:#09042A;
+   border-radius:100%;
+   position:absolute;
+   top:110px;
+   right:100px;
+         border:10px solid #E78481;
+
+ }
