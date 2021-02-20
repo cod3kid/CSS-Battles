@@ -150,7 +150,7 @@
 
     /* 17. Fidget Spinner*/
 
-    .figetSpinner__parent{
+    .fidgetSpinner__parent{
       height:300px;
       width:400px;
       background:#09042A;
@@ -158,56 +158,57 @@
   }
 
 
-  .figetSpinner__up{
-    width:60px;
-    height:60px;
-    background:#F5BB9C;
-    border-radius:100%;
-    position:absolute;
-    top:68px;
-    left:170px;
-  }
-  
-  .figetSpinner__down{
-    width:60px;
-    height:60px;
-    background:#F5BB9C;
-    border-radius:100%;
-    position:absolute;
-    bottom:68px;
-    left:170px;
-  }
-  
-
-
-  .figetSpinner__left{
-    width:60px;
-   height:60px;
-   background:#09042A;
-   border-radius:100%;
-   position:absolute;
-   top:110px;
-   left:100px;
-   border:10px solid #E78481;
- }
- 
- .figetSpinner__right{
-    width:60px;
-   height:60px;
-   background:#09042A;
-   border-radius:100%;
-   position:absolute;
-   top:110px;
-   right:100px;
-         border:10px solid #E78481;
-
- }
-
-.figetSpinner__mid{
+  .fidgetSpinner__left{
   width:60px;
-  height:40px;
-  background:#E78481;
-  position:absolute;
-  top:130px;
-  left:170px;
+ height:60px;
+ background:#09042A;
+ border-radius:100%;
+ position:absolute;
+ top:110px;
+ left:100px;
+ border:10px solid #E78481;
 }
+
+.fidgetSpinner__right{
+  width:60px;
+ height:60px;
+ background:#09042A;
+ border-radius:100%;
+ position:absolute;
+ top:110px;
+ right:100px;
+ border:10px solid #E78481;
+}
+
+.fidgetSpinner__mid{
+ width:60px;
+ height:50px;
+ background:#E78481;
+ position:absolute;
+ top:130px;
+ left:170px;
+}
+
+.fidgetSpinner__up{
+ width:60px;
+ height:60px;
+ background:#F5BB9C;
+ border-radius:100%;
+ border:11px solid #09042A;
+ position:absolute;
+ top:55px;
+ left:160px;
+ z-index:2
+}
+
+ .fidgetSpinner__down{
+ width:60px;
+ height:60px;
+ background:#F5BB9C;
+ border-radius:100%;
+ position:absolute;
+ bottom:55px;
+ left:160px;
+ border:11px solid #09042A;
+ z-index:2
+ }
