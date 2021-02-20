@@ -202,3 +202,12 @@
          border:10px solid #E78481;
 
  }
+
+.figetSpinner__mid{
+  width:60px;
+  height:40px;
+  background:#E78481;
+  position:absolute;
+  top:130px;
+  left:170px;
+}
