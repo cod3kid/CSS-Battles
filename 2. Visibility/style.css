@@ -212,3 +212,72 @@
  border:11px solid #09042A;
  z-index:2
  }
+
+    /* 18. Matrix*/
+
+    .matrix__parent{
+      height:300px;
+      width:400px;
+      background:#5C434C;
+      position: relative;
+  }
+
+  .matrix__parent > div {
+    position:absolute;
+    margin:10px;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius:100%;
+  }
+
+  .matrix__one{
+    background: #F09462;
+  }
+  
+ .matrix__two{
+    background: #F5D6B4;
+  }
+
+.b{
+  left:100px;
+}
+.c{
+  left:200px;
+}
+.d{
+  right:0px;
+}
+
+.f{
+  top:100px;
+  left:100px;
+}
+
+.e{
+  top:100px;
+}
+
+.h{
+  top:100px;
+  right:0px;
+}
+
+.g{
+  top:100px;
+  left:200px;
+}
+.i{
+  bottom:0px;
+}
+  .j{
+  bottom:0px;
+    left:100px;
+}
+.k{
+  bottom:0px;
+    left:200px;
+}
+.l{
+  bottom:0px;
+  right:0px;
+}
