@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+}
+
+    /* 21. SitePoint Logo*/
+
+    .sitePoint__parent{
+      height:300px;
+      width:400px;
+      background:#222;
+      position: relative;
+  }
